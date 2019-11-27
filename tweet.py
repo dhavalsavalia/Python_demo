@@ -89,8 +89,9 @@ class TwitterClient(object):
 def main(): 
 	# creating object of TwitterClient Class 
 	api = TwitterClient() 
+	name = input("Enter a person you want to search tweet")
 	# calling function to get tweets 
-	tweets = api.get_tweets(query = 'Donald Trump', count = 200) 
+	tweets = api.get_tweets(query = name, count = 200) 
 
 	# picking positive tweets from tweets 
 	ptweets = [tweet for tweet in tweets if tweet['sentiment'] == 'positive'] 

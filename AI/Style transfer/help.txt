@@ -1,0 +1,1 @@
+python3.7 neural_style/neural_style.py eval --content-image <image name> --model <Model location> --output-image <Output folder> --cuda 0
