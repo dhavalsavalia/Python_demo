@@ -1,0 +1,11 @@
+num1 = input("Enter first number: ");
+num2 = input("Enter second number: ");
+print("\nStarted swapping the given two numbers...");
+number1 = int(num1);
+number2 = int(num2);
+swap = number1;
+number1 = number2;
+number2 = swap;
+print("Given two numbers are successfully swapped!\n");
+print("Value of First and Second number after swapping:");
+print("First Number =",number1,"\nSecond Number=",number2);
